@@ -5,7 +5,7 @@ body {
     padding: 0;
   }
   
-  .mail {
+.mail {
     color:#ccc; 
     padding: 5px;
     border: 1px solid white;
@@ -38,10 +38,21 @@ body {
     margin-right: 10px;
   }
 
-  .text-just {
-    text-align: justify;
-  }
-  
+.block-image {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+p 
+{
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+    padding-top: 20px;
+}
   
   .header {
     background-color: #333;
@@ -74,6 +85,11 @@ body {
     width: 300px;
     height: auto;
   }
+
+  .list {
+    margin:auto;
+    max-width: 700px;
+  }
   
   .btn {
     display: inline-block;
@@ -84,7 +100,26 @@ body {
     margin-top: 10px;
   }
   
+table {
+  margin: auto;
+  margin-top: 20px;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 700px;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
   
+  tr {
+    border: 2px solid purple;
+  }
+
+  th{
+    border: 2px solid purple;
+  }
+  td {
+    border: 2px solid purple;
+  }
   .footer {
     background-color: #ccc;
     padding: 10px;
