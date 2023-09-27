@@ -1,0 +1,94 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mail {
+    color:#ccc; 
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px; 
+    text-decoration: none;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .sax {
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .prog {
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .piano {
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  .text-just {
+    text-align: justify;
+  }
+  
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  
+  .mx-5 {
+    margin: 0 5px;
+  }
+  
+  .about {
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    width: 300px;
+    height: auto;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  
+  .footer {
+    background-color: #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  
